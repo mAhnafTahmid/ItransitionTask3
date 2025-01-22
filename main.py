@@ -9,13 +9,11 @@ from moduloCalc import Modulator
 from probabilityCalc import ProbabilityCalculator
 
 
-# Dice abstraction
 class Dice:
     def __init__(self, values: List[int]):
         self.values = values
 
 
-# Main game logic
 class DiceGame:
     def __init__(self, dice: List[List[int]]):
         self.dice = [Dice(values) for values in dice]

@@ -1,7 +1,6 @@
 from typing import List, Tuple
 
 
-# Helper class for parsing dice configurations
 class DiceParser:
     @staticmethod
     def parse(args: List[str]) -> List[List[int]]:

@@ -2,7 +2,6 @@ from tabulate import tabulate
 from typing import List
 
 
-# Class for displaying help
 class HelpMenu:
     @staticmethod
     def display_help(dice: List[List[int]], probabilities: List[List[float]]):

@@ -6,7 +6,7 @@ import hashlib
 class SecureRandom:
     @staticmethod
     def generate_key() -> bytes:
-        return secrets.token_bytes(32)  # 256-bit key
+        return secrets.token_bytes(32)
 
     @staticmethod
     def generate_hmac(key: bytes, message: str) -> str:

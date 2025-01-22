@@ -1,7 +1,6 @@
 from typing import List, Tuple
 
 
-# Class for probability calculation
 class ProbabilityCalculator:
     @staticmethod
     def calculate_win_probabilities(dice: List[List[int]]) -> List[List[float]]:

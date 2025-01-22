@@ -1,4 +1,3 @@
-# Class for handling fair random number generation
 from typing import Tuple
 from generators import SecureRandom
 
